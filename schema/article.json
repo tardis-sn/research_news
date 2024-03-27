@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "short_description": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "array",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "platforms": {
+            "type": "array",
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "long_description": {
+            "type": "string"
+        },
+        "date": {
+            "type": "string",
+            "pattern": "^(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])-(\\d{4})$"
+        },
+        "cover_image": {
+            "type": "string"
+        },
+        "content": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "string"
+            },
+            "propertyNames": {
+                "pattern": "^(para|img)"
+            }
+        },
+        "people_involved_ids": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "links": {
+            "type": "object",
+            "items": {
+                "type": "string"
+            }
+        },
+        "author_id": {
+            "type": "string"
+        },
+        "article_id": {
+            "type": "string"
+        },
+        "twitter": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "title",
+        "author_id",
+        "article_id",
+        "display",
+        "date",
+        "category",
+        "tags",
+        "platforms",
+        "short_description",
+        "long_description",
+        "cover_image",
+        "content",
+        "people_involved_ids",
+        "links",
+        "twitter"
+    ],
+    "additionalProperties": true
+}

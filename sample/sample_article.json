@@ -1,0 +1,32 @@
+{
+    "title": "title of your article",
+    "author_id": "author id",
+    "article_id": "first two or three words of the title separated by underscores and author's first name in end for eg: first_second_third_author",
+    "display": true,
+    "date": "MM-DD-YYYY",
+    "category": "News or research",
+    "tags": [
+        "tag1",
+        "tag2"
+    ],
+    "platforms": [
+        "this determines the websites on which you want to display your article",
+        "Available options are",
+        "tardis-for tardis website",
+        "kg-kerzendorf lab",
+        "dti - deepthought initiative"
+    ],
+    "short_description": "Summary of your content",
+    "long_description": "",
+    "cover_image": "images/**name_of_your_phto_including_extension**",
+    "content": {
+        "para1": "content",
+        "para2": "content"
+    },
+    "people_involved_ids": [
+        "id_of_collaborator1",
+        "id_of_collaborator2 etc."
+    ],
+    "links": {},
+    "twitter": "None"
+}
