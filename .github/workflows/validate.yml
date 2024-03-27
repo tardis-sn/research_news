@@ -19,14 +19,14 @@ jobs:
         with:
           repository: tardis-sn/tardis-org-data
           path: tardis-org-data
-          token: ${{ secrets.SITE_TARDIS }}
+          token: ${{ secrets.RESEARCH_AND_NEWS }}
 
       - name: Clone Research and News Repository
         uses: actions/checkout@v4
         with:
           repository: research_news
           path: research_news
-          token: ${{ secrets.SITE_TARDIS }}
+          token: ${{ secrets.RESEARCH_AND_NEWS }}
 
       - name: Set up Python3
         uses: actions/setup-python@v4
@@ -46,7 +46,7 @@ jobs:
       - name: Dispatch to Tardis-org-data
         run: |
           curl -X POST \
-          -H "Authorization: Bearer ${{ secrets.DISPATCH_VAR }}" \
+          -H "Authorization: Bearer ${{ secrets.RESEARCH_AND_NEWS }}" \
           -H "Accept: application/vnd.github+json" \
           -H "Content-Type: application/json" \
           -d '{ "event_type": "repo-push" }' \
