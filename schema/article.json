@@ -39,7 +39,7 @@
                 "type": "string"
             },
             "propertyNames": {
-                "pattern": "^(para|img)"
+                "pattern": "^\\d+_((para)|(img))"
             }
         },
         "people_involved_ids": {
