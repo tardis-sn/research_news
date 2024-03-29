@@ -1,0 +1,22 @@
+{
+    "title": "GSoC 2024",
+    "author_id": "atharva_arya",
+    "article_id": "gsoc_2024_news",
+    "display": true,
+    "date": "03-29-2024",
+    "category": "News",
+    "tags": [
+        "news"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "We are a part of GSoC 2024",
+    "cover_image": "../articles/gsoc-logo-2024.png",
+    "content": {
+        "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our ideas page at https://tardis-sn.github.io/summer_of_code/ideas/ and connect with us on Gitter at https://gitter.im/tardis-sn/gsoc if you are interested! Please note that application deadline is April 2nd, 2024"
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": "None"
+}
