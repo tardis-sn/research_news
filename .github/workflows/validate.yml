@@ -24,7 +24,7 @@ jobs:
       - name: Clone Research and News Repository
         uses: actions/checkout@v4
         with:
-          repository: research_news
+          repository: tardis-sn/research_news
           path: research_news
           token: ${{ secrets.RESEARCH_AND_NEWS }}
 
