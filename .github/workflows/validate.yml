@@ -41,7 +41,6 @@ jobs:
         run: |
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py
-        working-directory: tardis-sn/research_news
 
       - name: Dispatch to Tardis-org-data
         run: |
