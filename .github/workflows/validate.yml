@@ -39,8 +39,10 @@ jobs:
 
       - name: Run Validator Notebook
         run: |
+          ls -l -a
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py
+        working-directory: research_news
 
       - name: Dispatch to Tardis-org-data
         run: |
