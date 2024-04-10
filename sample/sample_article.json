@@ -22,7 +22,7 @@
     "content": {
         "1_para": "Make sure that the first few lines of the article are about the group member.",
         "2_img": "if needed.",
-        "3_para": "The numbering before the underscore denotes the order in which the content should be displayed on the website."
+        "3_para": "The numbering before the underscore denotes the order in which the content will be displayed on the website."
     },
     "people_involved_ids": [
         "id_of_collaborator1",
