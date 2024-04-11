@@ -6,7 +6,8 @@
     "date": "02-12-2023",
     "category": "News",
     "platforms": [
-        "dti"
+        "dti",
+        "kg"
     ],
     "tags": [
         "news",
