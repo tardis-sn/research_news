@@ -34,12 +34,28 @@
             "type": "string"
         },
         "cover_image_height": {
-            "type": "string",
-            "pattern": "^\\d+px$"
+            "anyOf": [
+                {
+                    "type": "string",
+                    "pattern": "^\\d+px$"
+                },
+                {
+                    "type": "string",
+                    "empty": true
+                }
+            ]
         },
         "cover_image_width": {
-            "type": "string",
-            "pattern": "^\\d+px$"
+            "anyOf": [
+                {
+                    "type": "string",
+                    "pattern": "^\\d+px$"
+                },
+                {
+                    "type": "string",
+                    "empty": true
+                }
+            ]
         },
         "content": {
             "type": "object",
