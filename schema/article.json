@@ -33,6 +33,14 @@
         "cover_image": {
             "type": "string"
         },
+        "cover_image_height": {
+            "type": "string",
+            "pattern": "^\\d+px$"
+        },
+        "cover_image_width": {
+            "type": "string",
+            "pattern": "^\\d+px$"
+        },
         "content": {
             "type": "object",
             "additionalProperties": {
