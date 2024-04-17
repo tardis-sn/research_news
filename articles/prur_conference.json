@@ -1,0 +1,30 @@
+{
+    "title": "Peer Review Under Review - Workshop at European Southern Observatory",
+    "author_id": "vicente_amado",
+    "article_id": "prur_conference",
+    "display": true,
+    "date": "02-12-2023",
+    "category": "News",
+    "platforms": [
+        "dti",
+        "kg"
+    ],
+    "tags": [
+        "news",
+        "research"
+    ],
+    "short_description": "DeepThought Initiative and collaborators organized a workshop on peer review at the European Southern Observatory.",
+    "long_description": "",
+    "cover_image": "../articles/img_PRUR.png",
+    "content": {
+        "1_para": "Wolfgang Kerzendorf and collaborators organized a workshop on peer review at the European Southern Observatory (ESO) in Garching, Germany. The workshop aimed to address the persistent challenges faced by peer review in the scientific community, including the difficulty of identifying experts in specialized fields and the increasing number of researchers and publications. Experts from organizations such as ESO, ESA, ALMA, STScI, NASA, and NOIRLab came together to discuss the state of peer review and explored innovative approaches for a digital and interconnected science community. The workshop consisted of four main sessions and was held at the ESO Headquarters from February 6 to 10, 2023. Vicente Amado Olivo presented a contributed talk and you can find the slides see link in references."
+    },
+    "people_involved_ids": [
+        "vicente_amado",
+        "wolfgang_kerzendorf"
+    ],
+    "links": {
+        "NASA ADS": "https://ui.adsabs.harvard.edu/abs/2023prur.confE..13A/abstract"
+    },
+    "twitter": "None"
+}

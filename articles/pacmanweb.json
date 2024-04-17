@@ -1,0 +1,29 @@
+{
+    "title": "PACMan Web Application",
+    "author_id": "abhinav_ohri",
+    "article_id": "pacmanweb",
+    "display": true,
+    "date": "03-18-2024",
+    "category": "Software",
+    "tags": [
+        "research"
+    ],
+    "platforms": [
+        "dti"
+    ],
+    "short_description": "Web application for PACMan a machine-learning tool to streamline the review process for telescope proposals.",
+    "long_description": "",
+    "cover_image": "../articles/pacmanweb.png",
+    "content": {
+        "1_para": "Proposal Auto-Categorizer and Manager (PACMan) is a set of tools for science category sorting, panellist selection and proposal-to-panellist assignments. PACMan classifies proposals and reviewers into topical categories that aid in the assembly of panels, determines and flags close collaborators from publication histories, and matches proposals to the most knowledgeable reviewers based on those same publication histories. However, the tool lacks an interface allowing users to easily run PACMan without having to install it on their computer or without requiring users to know about the terminal.",
+        "2_para": "We have created a web application for PACMan, which allows users to run PACMan without installing it and offers functionalities like proposal/reviewer categorization, collaborator detection, and duplicate finding. The application also supports downloading outputs and connecting to external databases.The client side of the application has been developed utilising React JS. This choice is informed by the consideration that PACMan will handle over a thousand proposals in one execution. The backend is a Flask app running PACMan and relaying the output it produces to the client via a REST API."
+    },
+    "people_involved_ids": [
+        "abhinav_ohri",
+        "atharva_arya",
+        "vicente_amado",
+        "wolfgang_kerzendorf"
+    ],
+    "links": {},
+    "twitter": "None"
+}

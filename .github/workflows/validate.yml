@@ -43,7 +43,7 @@ jobs:
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py
         working-directory: research_news
-        
+
       - name: Dispatch to Tardis-org-data
         run: |
           curl -X POST \
@@ -52,3 +52,12 @@ jobs:
           -H "Content-Type: application/json" \
           -d '{ "event_type": "repo-push" }' \
           https://api.github.com/repos/tardis-sn/tardis-org-data/dispatches
+
+      - name: Dispatch to DTI website generator
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.RESEARCH_AND_NEWS }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "Content-Type: application/json" \
+            -d '{ "event_type": "repo-push" }' \
+            https://api.github.com/repos/deepthought-initiative/dtiwebsite_generator/dispatches
