@@ -1,0 +1,31 @@
+{
+    "title": "Summer REU Students Join Kerzendorf Group",
+    "author_id": "richard_dow",
+    "article_id": "reu_student_announcement",
+    "display": true,
+    "date": "06-23-2023",
+    "category": "News",
+    "tags": [
+        "news",
+        "research",
+        "Internship"
+    ],
+    "platforms": [
+        "kg"
+    ],
+    "short_description": "Two undergraduate research assistants have joined the Kerzendorf Group, as part of a National Science Foundation REU grant.",
+    "long_description": "",
+    "cover_image": "website_files/images/article_content/nsflogo.jpg",
+    "content": {
+        "1_para": "Tripp Dow and Iliomar Rodriguez Ramos have both begun working with the Kerzendorf Group, as summmer REU students. ",
+        "2_para": "Tripp is a computer science student at the University of Minnesota. He will work under Vicente Amado Olivo, on author name disambiguation. The two will implement and compare algorithms for computational metascience, including name-based and graph-based approaches. His research interests include natural language processing, mathematical modelling, and machine learning. After graduation, he plans to attend graduate school, with hopes of becoming a professor.",
+        "3_para": "Iliomar is a Theoretical and Astrophysics student at the University of Puerto Rico, at the Mayagüez Campus. He is working under Joshua Shields, on The Complex Structure and Composition of Ancient Stars, studying the spectrum of ancient stars with the open-source code STARDIS. In the future, he expects to attend graduate school and dedicate to study the amazign mysteries of the stellar remnants.",
+        "4_para": "The two students are excited for this amazing oppurtunity, and look forward to working with the members of the Kerzendorf Group."
+    },
+    "people_involved_ids": [
+        "richard_dow",
+        "iliomar_rodriguez_ramos"
+    ],
+    "links": {},
+    "twitter": "None"
+}
