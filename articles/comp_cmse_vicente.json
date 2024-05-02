@@ -1,0 +1,28 @@
+{
+    "title": "Comprehensive Examination Announcement: Our Graduate Student Vicente becomes a PhD Candidate",
+    "author_id": "vicente_amado",
+    "article_id": "comp_cmse_vicente",
+    "display": true,
+    "date": "05-02-2024",
+    "category": "News",
+    "tags": [
+        "research"
+    ],
+    "platforms": [
+        "kg",
+        "dti"
+    ],
+    "short_description": "Vicente our student passes his comprehensive examination and becomes a PhD candidate.",
+    "long_description": "",
+    "cover_image": "website_files/images/article_content/cmse_comp_vicente.jpg",
+    "content": {
+        "1_para": "Vicente has successfully defended his comprehensive examination titled 'Leveraging Machine Learning to Revolutionize Astrophysics Research Processes: From Peer Review to Research Management'. His work explores how computational techniques like machine learning can enhance various aspects of the research process in astrophysics.",
+        "2_para": "Here you can see the abstract for the comprehensive examination to learn more.",
+        "3_para": "Our global research community is experiencing unprecedented exponential growth. Our traditional research practices, however, were not designed to scale accordingly. Recent technological advancements have the ability to facilitate the scientific process. Computational meta-research leverages algorithmic techniques, such as machine learning, to improve research processes from peer review to research management. In this comprehensive examination, I focus on the astrophysics example of identifying the needs of the community through the accurate tracking of telescope resources. The astrophysics community describes the current use of resources (e.g. HST and JWST) in natural language scientific publications. I present, our machine learning framework, employing natural language processing and text classification techniques, to identify facility usage information from the large corpus of scientific literature. The framework successfully classifies usage of facilities with an accuracy of 92.9%, evaluated against a labeled dataset compiled in collaboration with the Space Telescope Science Institute. Additionally, I propose my dissertation research, where I will develop a comprehensive registry of all active global researchers employing machine learning to facilitate collaboration, minimize isolated research, and accelerate scientific advancement. In conclusion, the machine learning methods I present and propose exemplify how computational meta-research is enhancing the research cycle, from optimizing resource allocation to augmenting research management."
+    },
+    "people_involved_ids": [
+        "vicente_amado"
+    ],
+    "links": {},
+    "twitter": "None"
+}
