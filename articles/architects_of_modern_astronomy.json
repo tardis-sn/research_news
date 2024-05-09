@@ -6,9 +6,7 @@
     "date": "05-06-2024",
     "category": "Software",
     "tags": [],
-    "platforms": [
-        "dti"
-    ],
+    "platforms": [],
     "short_description": "Software plays a hidden but crucial role in astronomy research. This project aims to recognize the scientists behind these tools. It will analyze open source astronomy software on ASCL.net, considering both the impact (citations) and time invested (code commits) to identify key contributors who connect data with astronomical understanding.",
     "long_description": "",
     "cover_image": "../articles/modern_astronomy_tree_map.png",
