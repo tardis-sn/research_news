@@ -1,0 +1,26 @@
+{
+    "title": "Keep Your Python Environment Up-to-Date with the Latest Dependencies",
+    "author_id": "abhinav_ohri",
+    "article_id": "update_python_env_2024",
+    "display": true,
+    "date": "06-10-2024",
+    "category": "Updates",
+    "tags": [
+        "updates",
+        "dependencies"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.",
+    "long_description": "",
+    "cover_image": "website_files/images/article_content/lock_file_update_2024.jpeg",
+    "content": {
+        "1_para": "We have updated our Python environment with the latest dependencies to ensure optimal performance of our software. To stay in sync, please update your virtual environment. Keeping your dependencies up-to-date ensures you benefit from the latest features and performance improvements. Thank you for your cooperation!"
+    },
+    "people_involved_ids": [
+        ""
+    ],
+    "links": {},
+    "twitter": "None"
+}
