@@ -1,0 +1,27 @@
+{
+    "title": "REU Students Join Kerzendorf Group for Summer 2024",
+    "author_id": "gracie_tvrdik",
+    "article_id": "reu_student_announcement_2024",
+    "display": true,
+    "date": "07-16-2024",
+    "category": "News",
+    "tags": ["news",
+            "research",
+            "Internship"],
+    "platforms": ["kg"],
+    "short_description": "Two undergraduate student researchers have joined the Kerzendorf Group, as part of a National Science Foundation REU grant.",
+    "long_description": "",
+    "cover_image": "website_files/images/article_content/REU_and_mentor_group_photo.jpg",
+    "content": {
+        "1_para": "Gracie Tvrdik and Kiyah Young-Wilson have joined the Kerzendorf Group as summer REU students.",
+        "2_para": "Gracie is pursuing a degree in applied mathematics and data science at Bowling Green State University. She will collaborate with Vicente Amado Olivo on the project: Identifying Co-Author Connections in Astrophysics Literature. The team, including undergraduate researcher Ben Mellon, will implement algorithms to track and quantify team science using data from NASA ADS. Gracie's interests include mathematical modeling, machine learning, data science, and cryptography. Following graduation, she plans to pursue graduate studies in data science or industrial mathematics.",
+        "3_para": "Kiyah is a physics and astrophysics major with a minor in computer science at Gonzaga University. She is working under the guidance of Joshua Shields to study chemical abundance of Galactic Center Stars utilizing STARDIS, an open source code developed by Shields. They will produce stellar spectra using STARDIS and compare them with observed spectra from the galactic center stars to potentially identify if there are any abnormalities. Kiyah finds interest in research topics related to stars, supernovae, computer science, data analytics, simulation, and nuclear astrophysics. Her goal after graduation is to attend graduate school for physics or astrophysics.",
+        "4_para": "The two students are excited by the research planned for this summer and look forward to collaborating with the members of the Kerzendorf Group."
+    },
+    "people_involved_ids": [
+        "gracie_tvrdik",
+        "kiyah_young-wilson"
+    ],
+    "links": {},
+    "twitter": "None"
+}
