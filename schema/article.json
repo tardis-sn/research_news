@@ -63,7 +63,7 @@
                 "type": "string"
             },
             "propertyNames": {
-                "pattern": "^\\d+_((para)|(img))"
+                "pattern": "^\\d+_((para)|(img)|(vid)|(cap))"
             }
         },
         "people_involved_ids": {
