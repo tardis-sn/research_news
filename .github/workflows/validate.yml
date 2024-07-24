@@ -10,9 +10,11 @@ on:
       - "*"
 
 jobs:
-  Validating_Article:
+  validating-article:
     name: Validate Article
     runs-on: ubuntu-latest
+    outputs: 
+      validate-article-outcome: ${{ steps.validate-article.outcome }}
     steps:
       - name: Clone Tardis group data
         uses: actions/checkout@v4
@@ -38,12 +40,19 @@ jobs:
           pip install --upgrade pip jupyter pandas
 
       - name: Run Validator Notebook
+        id: validate-article
         run: |
           ls -l -a
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py
         working-directory: research_news
 
+  dispatch-to-websites:
+    name: Dispatch to All Websites
+    runs-on: ubuntu-latest
+    needs: validating-article
+    if: needs.validating-article.outputs.validate-article-outcome == 'success'
+    steps:
       - name: Dispatch to Kerzendorf Lab Website
         run: |
           curl -X POST \
