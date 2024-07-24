@@ -46,7 +46,6 @@ jobs:
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py > validation_output.txt
           cat validation_output.txt
-
           if grep -q "VALIDATION SUCCESSFUL" validation_output.txt; then
             echo "Validation successful!"
           else
