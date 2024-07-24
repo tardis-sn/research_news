@@ -44,8 +44,16 @@ jobs:
         run: |
           ls -l -a
           jupyter nbconvert --to python validate.ipynb
-          python3 validate.py
-        working-directory: research_news
+          python3 validate.py > validation_output.txt
+          cat validation_output.txt
+
+          if grep -q "VALIDATION SUCCESSFUL" validation_output.txt; then
+            echo "Validation successful!"
+          else
+            echo "Validation failed!"
+            exit 1  # Set failure exit code
+          fi
+        working-directory: research_news          
 
   dispatch-to-websites:
     name: Dispatch to All Websites
