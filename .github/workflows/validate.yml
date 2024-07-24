@@ -39,8 +39,7 @@ jobs:
         run: |
           pip install --upgrade pip jupyter pandas
 
-      - name: Run Validator Notebook
-        id: validate-article
+      - name: Check Validation Output
         run: |
           ls -l -a
           jupyter nbconvert --to python validate.ipynb
