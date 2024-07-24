@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs: 
       validate-article-outcome: ${{ steps.validate-article.outcome }}
+      validation-result: ${{steps.validation-result.outcome}}
     steps:
       - name: Clone Tardis group data
         uses: actions/checkout@v4
@@ -39,7 +40,8 @@ jobs:
         run: |
           pip install --upgrade pip jupyter pandas
 
-      - name: Check Validation Output
+      - name: Run Validator Notebook
+        id: validate-article
         run: |
           ls -l -a
           jupyter nbconvert --to python validate.ipynb
@@ -58,7 +60,7 @@ jobs:
     name: Dispatch to All Websites
     runs-on: ubuntu-latest
     needs: validating-article
-    if: needs.validating-article.outputs.validate-article-outcome == 'success'
+    if: needs.validating-article.outputs.validation-result == 'success'
     steps:
       - name: Dispatch to Kerzendorf Lab Website
         run: |
