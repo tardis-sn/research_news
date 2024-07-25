@@ -10,7 +10,7 @@
         "simulation"
     ],
     "platforms": [
-        "tardis-for tardis website"
+        "tardis"
     ],
     "short_description": "Detailed logger for TARDIS simulation run",
     "long_description": "",
