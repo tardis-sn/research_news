@@ -17,7 +17,6 @@
         "dti - deepthought initiative"
     ],
     "short_description": "Summary of your content",
-    "long_description": "",
     "cover_image_height": "520px",
     "cover_image_width": "330px",
     "cover_image": "../articles/**name_of_your_phto_including_extension**",

@@ -1,26 +1,25 @@
 {
-    "title": "Accepted as a mentoring organisation for Google Summer of Code 2024",
-    "author_id": "atharva_arya",
-    "article_id": "gsoc_2024_news",
-    "display": true,
-    "date": "03-29-2024",
-    "category": "News",
-    "tags": [
-        "news"
-    ],
-    "platforms": [
-        "tardis"
-    ],
-    "short_description": "We are a part of Google Summer of Code 2024.",
-    "long_description": "",
-    "cover_image": "../articles/gsoc-logo-2024.png",
-    "content": {
-        "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our <a href='https://tardis-sn.github.io/summer_of_code/ideas/'>ideas page</a> and connect with us on <a href='https://gitter.im/tardis-sn/gsoc'>gitter</a> if you are interested! Please note that application deadline is April 2nd, 2024"
-    },
-    "people_involved_ids": [],
-    "links": {
-        "Our Gitter": "https://gitter.im/tardis-sn/gsoc",
-        "GSoC Ideas": "https://tardis-sn.github.io/summer_of_code/ideas/"
-    },
-    "twitter": "None"
+  "title": "Accepted as a mentoring organisation for Google Summer of Code 2024",
+  "author_id": "atharva_arya",
+  "article_id": "gsoc_2024_news",
+  "display": true,
+  "date": "03-29-2024",
+  "category": "News",
+  "tags": [
+    "news"
+  ],
+  "platforms": [
+    "tardis"
+  ],
+  "short_description": "We are a part of Google Summer of Code 2024.",
+  "cover_image": "../articles/gsoc-logo-2024.png",
+  "content": {
+    "1_para": "We are excited to announce that TARDIS has been accepted as a mentoring organization in Google Summer of Code 2024! Check out our <a href='https://tardis-sn.github.io/summer_of_code/ideas/'>ideas page</a> and connect with us on <a href='https://gitter.im/tardis-sn/gsoc'>gitter</a> if you are interested! Please note that application deadline is April 2nd, 2024"
+  },
+  "people_involved_ids": [],
+  "links": {
+    "Our Gitter": "https://gitter.im/tardis-sn/gsoc",
+    "GSoC Ideas": "https://tardis-sn.github.io/summer_of_code/ideas/"
+  },
+  "twitter": "None"
 }
