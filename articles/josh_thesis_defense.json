@@ -15,7 +15,7 @@
     "tardis",
     "kg"
   ],
-  "short_description": "We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions. Josh performed multiple surviving companion investigations in supernova remnants, and adapted TARDIS to be able to model stellar atmospheres and produce surviving companion spectra. He will continue to work with us expanding the plasma physics of TARDIS. ",
+  "short_description": "We are pleased to announce that Josh has just defended his thesis at Michigan State University investigating the progenitors of Type Ia Supernovae through the study of their surviving companions.",
   "cover_image_height": "520px",
   "cover_image_width": "330px",
   "cover_image": "../articles/josh_defense_title_slide.jpg",
