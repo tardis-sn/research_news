@@ -1,0 +1,22 @@
+{
+    "title": "Ezequiel Passaro presented a poster on “An Open Source Framework for Atomic Data” for Reunión anual de la Asociación Argentina de Astronomía in September ’19.",
+    "author_id": "ezequiel_passaro",
+    "article_id": "ezequiel_poster_asociacion_argentina_2019",
+    "display": true,
+    "date": "09-01-2019",
+    "category": "Presentation",
+    "tags": [
+        "posters"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "Ezequiel Passaro presented a poster on “An Open Source Framework for Atomic Data” for *Reunión anual de la Asociación Argentina de Astronomía* in September ’19 where he demonstrated the TARDIS package carsus.",
+    "cover_image": "https://drive.google.com/file/d/15SNxFEQn--4D0QPLzKaXgJHVBBnoL9Dg/preview",
+    "content": {},
+    "people_involved_ids": [
+        "ezequiel_passaro"
+    ],
+    "links": {},
+    "twitter": "None"
+}
