@@ -95,7 +95,6 @@
         "tags",
         "platforms",
         "short_description",
-        "long_description",
         "cover_image",
         "content",
         "people_involved_ids",
