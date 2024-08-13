@@ -1,0 +1,26 @@
+{
+    "title": "Attention! Update your TARDIS Python environment",
+    "author_id": "abhinav_ohri",
+    "article_id": "update_python_env_2024",
+    "display": true,
+    "date": "06-10-2024",
+    "category": "News",
+    "tags": [
+        "updates",
+        "news",
+        "dependencies"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "We've updated our Python environment with the latest dependencies. Please update your environment to stay in sync and ensure optimal performance.",
+    "cover_image": "../articles/lock_file_update_2024.jpeg",
+    "content": {
+        "1_para": "We upgrade the TARDIS environment with the current version of the scientific python software stack. This is to ensure that we include the latest bug fixes in our dependencies and have access to new API and tools.  We have updated our Python environment with the latest dependencies and the current lock-file is available here. Please read here how to <a href='https://tardis-sn.github.io/tardis/installation.html#environment-update'>update</a> the new environment."
+    },
+    "people_involved_ids": [
+        ""
+    ],
+    "links": {},
+    "twitter": "None"
+}
