@@ -1,0 +1,28 @@
+{
+    "title": "Enhancing Packet Trackers",
+    "author_id": "sumit_gupta",
+    "article_id": "gsoc_2024_enhancing_packet_trackers_sumit",
+    "display": true,
+    "date": "08-23-2024",
+    "category": "News",
+    "tags": ["packet trackers"],
+    "platforms": ["tardis"],
+    "short_description": "Hey there! This article covers all the cool stuff we've been up to this summer for the GSoC project related to packet trackers.",
+    "cover_image_height": "520px",
+    "cover_image_width": "330px",
+    "cover_image": "media/images/cover_image.png",
+    "content": {
+        "1_para": "We have introduced a new RPacketLastInteractionTracker class to keep track of the last interaction of a RPacket.",
+        "2_img": "media/images/RPacketLastInteractionTracker.png",
+        "3_para": "As a result of the tracker restructuring, the peak memory usage has been reduced from 4 GB to approximately 1 GB.",
+		"4_para": "Before Restructure",
+        "5_img": "media/images/beforeRestructure.png",
+		"6_para": "After Restructure",
+		"7_img": "media/images/afterRestructure.png",
+		"8_para": "Also, we made sure to create lots of tests and benchmarks to ensure that the trackers are working at their best.",
+		"9_para": "The detailed report for the GSoC project is available at https://gist.github.com/Sumit112192/fc0140fa2d11bb903bd2d0e0ce0c8462"
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": ""
+}
