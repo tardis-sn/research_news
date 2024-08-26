@@ -9,7 +9,7 @@ Follow these simple steps to add a new article using the Jupyter Notebook named 
 
 ## Step 2: Set the Article ID
 
-1. Before running the cell, ensure that the `article_id` variable is set correctly with a unique identifier (first two or three words of the title separated by underscores and your first name at the end).
+1. Before running the cell, ensure that the `article_id` variable is set correctly with a unique identifier (USE ONLY LOWERCASE ALPHABETS AND UNDERSCORES!!).
 
 ## Step 3: Run the Notebook
 
@@ -19,14 +19,14 @@ Follow these simple steps to add a new article using the Jupyter Notebook named 
 
 Locate your new folder in the `articles` directory and open the `info.json` file in the newly created article folder. You will need to fill out the following fields:
 
-- **title**: The title of your article.
+- **title**: The title of your article (Donot use ":").
 - **author_id**: Your unique author ID.
 - **display**: Set to `true` if you want the article to be displayed.
 - **date**: Enter the date in MM-DD-YYYY format.
 - **category**: Specify whether it is "News" or "Research".
 - **tags**: List relevant tags (e.g., "tag1", "tag2").
 - **platforms**: Choose the platforms where you want to display your article (e.g., "tardis", "kg", "dti"). Leaving this empty would mean your article won't be visible on any of the websites.
-- **short_description**: Write a brief summary of your content.
+- **short_description**: Write a brief summary of your content (Donot use ":").
 - **cover_image_height**: Set the height of your cover image (e.g., "520px").
 - **cover_image_width**: Set the width of your cover image (e.g., "330px").
 - **cover_image**: Provide the path to your cover image (e.g., "media/images/your_image_name.extension").
