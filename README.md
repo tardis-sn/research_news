@@ -9,7 +9,7 @@ Follow these simple steps to add a new article using the Jupyter Notebook named 
 
 ## Step 2: Set the Article ID
 
-1. Before running the cell, ensure that the `article_id` variable is set correctly with a unique identifier (first two or three words of the title separated by underscores and your first name at the end).
+1. Before running the cell, ensure that the `article_id` variable is set correctly with a unique identifier (USE ONLY LOWERCASE ALPHABETS AND UNDERSCORES!!).
 
 ## Step 3: Run the Notebook
 
