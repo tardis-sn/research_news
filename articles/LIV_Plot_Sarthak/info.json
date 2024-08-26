@@ -5,9 +5,13 @@
     "display": true,
     "date": "08-23-2024",
     "category": "News",
-    "tags": ["visualization"],
-    "platforms": ["tardis"],
-    "short_description": "This article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
+    "tags": [
+        "visualization"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "Hi, this article highlights the development of the LIV (Last Interaction Velocity) Plot during this summer's GSoC program—a new visualization tool that plots the last photon packet interactions by velocity for each element in supernova ejecta, offering deeper insights into supernova spectra.",
     "cover_image_height": "520px",
     "cover_image_width": "330px",
     "cover_image": "research_news/articles/LIV_Plot_Sarthak/media/images/LIV_ply.png",
