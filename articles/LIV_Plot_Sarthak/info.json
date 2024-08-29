@@ -20,7 +20,7 @@
         "6_para": "The plots have various options providing the users with more control over how your last interaction velocity looks, like, 'species_list', 'nelements', 'packet_wvl_range', 'num_bins', 'log_scale' and many other options.",
         "7_para": "The detailed report for the GSoC project is available at https://sites.google.com/view/sarthak-gsoc2024/home"
     },
-    "people_involved_ids": [],
+    "people_involved_ids": ["sarthak_srivastava","james_gillanders","jaladh_singhal","abhinav_ohri","mark_magee"],
     "links": {
         "Full Report": "https://sites.google.com/view/sarthak-gsoc2024/home"
     },
