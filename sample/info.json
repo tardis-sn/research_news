@@ -6,7 +6,7 @@
     "date": "",
     "category": "",
     "tags": [],
-    "platforms": [],
+    "platforms": ["kg", "tardis", "dti"],
     "short_description": "",
     "cover_image_height": "520px",
     "cover_image_width": "330px",
