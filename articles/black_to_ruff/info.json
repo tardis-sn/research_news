@@ -1,0 +1,24 @@
+{
+    "title": "Transitioning from Black to Ruff",
+    "author_id": "",
+    "article_id": "black_to_ruff",
+    "display": true,
+    "date": "11-01-2024",
+    "category": "News",
+    "tags": [
+        "news"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "We have successfully transitioned from Black to Ruff.",
+    "cover_image_height": "330px",
+    "cover_image_width": "520px",
+    "cover_image": "/media/images/ruff.png",
+    "content": {
+        "1_para": "We have transitioned from Black to Ruff in our codebase, primarily due to Ruff's exceptional speed and efficiency. Ruff is over 30 times faster than Black, which significantly enhances our development workflow.Additionally, it maintains great compatibility with Black, allowing for a seamless integration."
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": ""
+}
