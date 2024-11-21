@@ -5,7 +5,9 @@
     "display": true,
     "date": "11-12-2024",
     "category": "News",
-    "tags": ["news"],
+    "tags": [
+        "news"
+    ],
     "platforms": [
         "kg",
         "dti"
@@ -15,14 +17,19 @@
     "cover_image_width": "520px",
     "cover_image": "media/images/mastvsnomast.png",
     "content": {
-        "1_para": "Vicente, our graduate student and collaborators, have developed a machine learning framework that automatically identifies when scientific facilities like telescopes are used in astrophysics papers, addressing a long-standing challenge in tracking research facility usage.",
+        "1_para": "[vicente_amado], our graduate student and collaborators, have developed a machine learning framework that automatically identifies when scientific facilities like telescopes are used in astrophysics papers, addressing a long-standing challenge in tracking research facility usage.",
         "2_img": "media/images/mastvsnomast.png",
-        "3_para": "The framework analyzes scientific text using natural language processing and Support Vector Machine classification to accurately detect when missions like Kepler and TESS are used in research, achieving 92.9% accuracy. This innovative approach saves valuable research time by eliminating the need for manual classification while being adaptable for use across various scientific facilities worldwide. To see more and read the full paper: https://arxiv.org/abs/2411.00987.",
+        "3_para": "The framework analyzes scientific text using natural language processing and Support Vector Machine classification to accurately detect when missions like Kepler and TESS are used in research, achieving 92.9% accuracy. This innovative approach saves valuable research time by eliminating the need for manual classification while being adaptable for use across various scientific facilities worldwide. To see more and read the full paper: <a href='https://arxiv.org/abs/2411.00987'>https://arxiv.org/abs/2411.00987</a>.",
         "4_img": "media/images/fig_2.png",
-        "5_para":" <p>Collaborators:</p><ul><li> - <strong>Wolfgang Kerzendorf</strong> (Department of Computational Mathematics, Science, and Engineering; Department of Physics and Astronomy, Michigan State University)</li> <li> - <strong>Brian Cherinka</strong> (Space Telescope Science Institute)</li><li> - <strong>Joshua V. Shields</strong> (Department of Physics and Astronomy, Michigan State University)</li><li> - <strong>Annie Didier</strong> (Outrider, Golden)</li><li> - <strong>Katharina von der Wense</strong> (Department of Computer Science, University of Colorado Boulder; Institute of Computer Science, Johannes Gutenberg University Mainz)</li></ul>"
+        "5_para": " <p>Collaborators:</p><ul><li> - <strong>[wolfgang_kerzendorf]</strong> (Department of Computational Mathematics, Science, and Engineering; Department of Physics and Astronomy, Michigan State University)</li> <li> - <strong>Brian Cherinka</strong> (Space Telescope Science Institute)</li><li> - <strong>[josh_shields]</strong> (Department of Physics and Astronomy, Michigan State University)</li><li> - <strong>Annie Didier</strong> (Outrider, Golden)</li><li> - <strong>Katharina von der Wense</strong> (Department of Computer Science, University of Colorado Boulder; Institute of Computer Science, Johannes Gutenberg University Mainz)</li></ul>"
     },
-    "people_involved_ids": [    "Annie Didier",    "josh_shields",
-    "wolfgang_kerzendorf", "vicente_amado",  "Katharina von der Wense" ],
-    "links": {"full-paper": "https://arxiv.org/abs/2411.00987"},
+    "people_involved_ids": [
+        "josh_shields",
+        "wolfgang_kerzendorf",
+        "vicente_amado"
+    ],
+    "links": {
+        "full-paper": "https://arxiv.org/abs/2411.00987"
+    },
     "twitter": ""
 }

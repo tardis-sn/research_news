@@ -17,7 +17,7 @@
     "short_description": "Vicente our student passes his comprehensive examination and becomes a PhD candidate.",
     "cover_image": "website_files/images/article_content/cmse_comp_vicente.jpg",
     "content": {
-        "1_para": "Vicente has successfully defended his comprehensive examination titled 'Leveraging Machine Learning to Revolutionize Astrophysics Research Processes: From Peer Review to Research Management'. His work explores how computational techniques like machine learning can enhance various aspects of the research process in astrophysics."
+        "1_para": "[vicente_amado] has successfully defended his comprehensive examination titled 'Leveraging Machine Learning to Revolutionize Astrophysics Research Processes: From Peer Review to Research Management'. His work explores how computational techniques like machine learning can enhance various aspects of the research process in astrophysics."
     },
     "people_involved_ids": [
         "vicente_amado"
