@@ -3,13 +3,13 @@
     "author_id": "andrew_fullard",
     "article_id": "kurucz_obituary_andrew",
     "display": true,
-    "date": "05-03-2025",
+    "date": "03-05-2025",
     "category": "News",
     "tags": [],
     "platforms": [
         "tardis", "kg"
     ],
-    "short_description": "",
+    "short_description": "The TARDIS collaboration mourns the loss of R. Kurucz",
     "cover_image_height": "630px",
     "cover_image_width": "580px",
     "cover_image": "media/images/kurucz-spectrum.png",
