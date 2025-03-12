@@ -7,7 +7,7 @@
     "category": "News",
     "tags": [],
     "platforms": [
-        "tardis"
+        "tardis", "kg"
     ],
     "short_description": "",
     "cover_image_height": "630px",
