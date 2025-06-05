@@ -1,0 +1,25 @@
+{
+    "title": "GSoC 2025 Coding Period Begins",
+    "author_id": "",
+    "article_id": "gsoc_participants_2025",
+    "display": true,
+    "date": "06-02-2025",
+    "category": "News",
+    "tags": [],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "",
+    "cover_image_height": "330px",
+    "cover_image_width": "520px",
+    "cover_image": "media/images/gsoc_2025_participants.png",
+    "content": {
+        "1_para": "Today marks the official start of the 2025 Google Summer of Code coding period for the TARDIS project. We are excited to welcome Haillie Perkins and Riddhi Gangbhoj as this year's GSoC participants.",
+        "2_para": "Riddhi Gangbhoj will tackle the Regression Data Dashboard and HDF writing capabilities project, which would help in tracking changes in regression test outputs and enhancing HDF I/O.",
+        "3_para": "Haillie Perkins will work on the implementing Line Identification Plotting Functionality to visualize the origins of spectral lines in TARDIS and STARDIS.",
+        "4_para": "We are thrilled to have them on board and look forward to a productive summer of collaboration and innovation. Stay tuned for updates on their progress!"
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": ""
+}
