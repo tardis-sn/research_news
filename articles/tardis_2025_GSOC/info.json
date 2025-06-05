@@ -1,0 +1,26 @@
+{
+    "title": "TARDIS Selected as a Google Summer of Code 2025 Mentoring Organization",
+    "author_id": "",
+    "article_id": "tardis_2025_GSOC",
+    "display": true,
+    "date": "02-27-2025",
+    "category": "News",
+    "tags": [
+        "GSoC",
+        "Summer Program",
+        "2025"
+    ],
+    "platforms": [
+        "tardis"
+    ],
+    "short_description": "",
+    "cover_image_height": "330px",
+    "cover_image_width": "520px",
+    "cover_image": "media/images/gsoc_2025_mentoring.png",
+    "content": {
+        "1_para": "TARDIS has been selected as a mentoring organization for Google Summer of Code 2025. We’re thrilled to join this global program and provide guidance to aspiring open-source contributors and advancing open-source research in computational astrophysics.We look forward to a productive summer of collaboration and innovation."
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": ""
+}
