@@ -16,7 +16,7 @@
     "short_description": "",
     "cover_image_height": "330px",
     "cover_image_width": "520px",
-    "cover_image": "media/images/perkinsPhoto.png",
+    "cover_image": "media/images/perkinsPhoto.jpeg",
     "content": {
         "1_para": "Haille Perkins is one of this year's Google Summer of Code contributors! She is a 3rd year graduate candidate in the Astronomy Department at the University of Illinois Urbana-Champaign. At UIUC, her these work focuses on modeling kilonovae and rare core collapse supernovae to learn more about the nucleosynthesis involved in these events. As a GSoC contributor, she will be working on functionality to indicate spectral line features in TARDIS spectral visualizations.  Her work will enable simple comparisons with published, labeled spectra; a physical understanding of new models; and development of publication-ready plots.  Additionally, she will utilize `jax` to more efficiently compute Lucy (1999b) formal integral spectra, reducing computational cost for users. "
     },
