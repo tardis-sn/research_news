@@ -1,0 +1,29 @@
+{
+    "title": "DTI Reviewer",
+    "author_id": "",
+    "article_id": "dti_reviewer",
+    "display": true,
+    "date": "06-16-2025",
+    "category": "Software",
+    "tags": [
+        "research"
+    ],
+    "platforms": [
+        "dti"
+    ],
+    "short_description": "<a href='http://31.97.40.150:3000/'>DTI Reviewer</a> is an open-source tool for identifying experts in physics for tasks like peer review and collaboration.",
+    "cover_image": "../articles/dti_reviewer.gif",
+    "content": {
+        "1_para": "<a href='http://31.97.40.150:3000/'>DTI Reviewer</a> is an open-source tool for identifying experts in physics for tasks like peer review and collaboration. As the global research community grows, finding qualified reviewers has become increasingly difficult. DTI Reviewer addresses this challenge using deterministic machine learning techniques to identify experts based on a dataset created by cross-matching NASA/ADS publications with ORCID profiles. Our initial approach uses TF-IDF to rank expertise.",
+        "2_para": "<i><u>Example: Finding Experts with Research Vectors</u></i>  : For each researcher, we build a knowledge vector by combining the titles and abstracts of their publications. These are embedded into a numerical vector space. When a user submits a query (e.g., the abstract of a new manuscript), we embed that query in the same space. We then compute cosine similarity between the query and each researcher’s vector to rank potential reviewers by how closely their past work aligns with the query. Submit your query via the web interface to get a ranked list of experts. Submit any length of text from a few words to a full-text paper."
+    },
+    "people_involved_ids": [
+        "abhinav_ohri",
+        "vicente_amado",
+        "wolfgang_kerzendorf"
+    ],
+    "links": {
+        "DTI Reviewer": "http://31.97.40.150:3000/"
+    },
+    "twitter": "None"
+}
