@@ -1,88 +1,29 @@
-name: Update Group Website
+name: Validate PR Article
 
 on:
-  workflow_dispatch:
-  push:
+  pull_request:
     branches:
       - main
-  pull_request_target:
-    branches:
-      - "*"
 
 jobs:
   validating-article:
     name: Validate Article
     runs-on: ubuntu-latest
-    outputs: 
-      validate-article-outcome: ${{ steps.validate-article.outcome }}
     steps:
-      - name: Clone Tardis group data
+      - name: Checkout PR code
         uses: actions/checkout@v4
-        with:
-          repository: tardis-sn/tardis-org-data
-          path: tardis-org-data
-          token: ${{ secrets.RESEARCH_AND_NEWS }}
 
-      - name: Clone Research and News Repository
-        uses: actions/checkout@v4
-        with:
-          repository: tardis-sn/research_news
-          path: research_news
-          token: ${{ secrets.RESEARCH_AND_NEWS }}
-
-      - name: Set up Python3
+      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
-      - name: Update pip and install Jupyter and Pandas
-        run: |
-          pip install --upgrade pip jupyter pandas
+      - name: Install dependencies
+        run: pip install --upgrade pip jupyter pandas
 
       - name: Run Validator Notebook
-        id: validate-article
         run: |
-          ls -l -a
           jupyter nbconvert --to python validate.ipynb
           python3 validate.py > validation_output.txt
           cat validation_output.txt
-          if grep -q "VALIDATION SUCCESSFUL" validation_output.txt; then
-            echo "Validation successful!"
-          else
-            echo "Validation failed!"
-            exit 1  # Set failure exit code
-          fi
-        working-directory: research_news          
-
-  dispatch-to-websites:
-    name: Dispatch to All Websites
-    runs-on: ubuntu-latest
-    needs: validating-article
-    if: needs.validating-article.outputs.validate-article-outcome == 'success'
-    steps:
-      - name: Dispatch to Kerzendorf Lab Website
-        run: |
-          curl -X POST \
-            -H "Authorization: Bearer ${{ secrets.RESEARCH_AND_NEWS }}" \
-            -H "Accept: application/vnd.github+json" \
-            -H "Content-Type: application/json" \
-            -d '{ "event_type": "repo-push" }' \
-            https://api.github.com/repos/kerzendorf-lab/groupwebsite_generator/dispatches
-
-      - name: Dispatch to Tardis-org-data
-        run: |
-          curl -X POST \
-          -H "Authorization: Bearer ${{ secrets.RESEARCH_AND_NEWS }}" \
-          -H "Accept: application/vnd.github+json" \
-          -H "Content-Type: application/json" \
-          -d '{ "event_type": "repo-push" }' \
-          https://api.github.com/repos/tardis-sn/tardis-org-data/dispatches
-
-      - name: Dispatch to DTI website generator
-        run: |
-          curl -X POST \
-            -H "Authorization: Bearer ${{ secrets.RESEARCH_AND_NEWS }}" \
-            -H "Accept: application/vnd.github+json" \
-            -H "Content-Type: application/json" \
-            -d '{ "event_type": "repo-push" }' \
-            https://api.github.com/repos/deepthought-initiative/dtiwebsite_generator/dispatches
+          grep -q "VALIDATION SUCCESSFUL" validation_output.txt
