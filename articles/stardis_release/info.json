@@ -3,7 +3,7 @@
     "author_id": "josh_shields",
     "article_id": "stardis_release",
     "display": true,
-    "date": "08-29-2025",
+    "date": "08-28-2025",
     "category": "Research",
     "tags": ["Astrophysics", "Stellar Spectroscopy", "Software Release"],
     "platforms": [
@@ -26,5 +26,5 @@
         "documentation": "https://tardis-sn.github.io/stardis/",
         "doi": "10.3847/1538-4357/adee11"
     },
-    "twitter": "None"
+    "twitter": ""
 }
