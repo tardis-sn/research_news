@@ -4,8 +4,8 @@
     "article_id": "stardis_release",
     "display": true,
     "date": "08-28-2025",
-    "category": "Research",
-    "tags": ["Astrophysics"],
+    "category": "News",
+    "tags": ["paper", "Astrophysics"],
     "platforms": [
         "kg",
         "tardis"
@@ -23,8 +23,7 @@
     "links": {
         "manuscript": "https://iopscience.iop.org/article/10.3847/1538-4357/adee11",
         "github": "https://github.com/tardis-sn/stardis",
-        "documentation": "https://tardis-sn.github.io/stardis/",
-        "doi": "10.3847/1538-4357/adee11"
+        "documentation": "https://tardis-sn.github.io/stardis/"
     },
     "twitter": ""
 }
