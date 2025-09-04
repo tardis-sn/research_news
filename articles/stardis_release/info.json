@@ -1,12 +1,11 @@
 {
     "title": "Introducing STARDIS: An Open and Modular Stellar Spectral Synthesis Code",
     "author_id": "josh_shields",
-    "research_id": "",
     "article_id": "stardis_release",
     "display": true,
     "date": "08-28-2025",
     "category": "Research",
-    "tags": ["paper", "Astrophysics", "Stellar Spectroscopy", "Software Release"],
+    "tags": ["Astrophysics"],
     "platforms": [
         "kg",
         "tardis"
