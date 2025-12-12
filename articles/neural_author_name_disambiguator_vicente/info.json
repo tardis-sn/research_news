@@ -10,7 +10,7 @@
     "short_description": "We present the Neural Author Name Disambiguator, a machine learning model that leverages the semantic content of titles and abstracts to identify unique researcher identities, achieving high accuracy even when metadata (e.g., affiliations) is missing. Our model achieves 94% accuracy in disambiguating author names, for example,helping ensure researchers get proper credit for their work.",
     "cover_image_height": "520px",
     "cover_image_width": "330px",
-    "cover_image": "media/images/Figure_AND.pdf",
+    "cover_image": "media/images/Figure_AND.png",
     "content": {
        "1_para": "We are excited to present our new paper, \"Practical Author Name Disambiguation under Metadata Constraints,\" where we tackle the critical challenge of correctly linking publications to their authors. Accurately grouping a researcher’s body of work is essential for ensuring proper credit, guiding funding allocations, and informing hiring decisions However, this task is often hindered by widespread name ambiguity—common names like \"J. Smith\" can appear in over 20,000 distinct records in systems like NASA/ADS. While many existing algorithms rely on extensive metadata like emails or affiliations to solve this, these features are frequently missing or inconsistent in large digital libraries. To bridge this gap, we introduced the Neural Author Name Disambiguator (NAND), a scalable method that effectively identifies researchers using only widely available data: names, titles, and abstracts", 
        "2_img": "media/images/Figure_AND.pdf", 
