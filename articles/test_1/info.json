@@ -1,0 +1,27 @@
+{
+    "title": "test_1",
+    "author_id": "",
+    "article_id": "test_1",
+    "display": true,
+    "date": "12-13-2025",
+    "category": "",
+    "tags": [],
+    "platforms": [
+        "kg",
+        "tardis",
+        "dti"
+    ],
+    "short_description": "",
+    "cover_image_height": "330px",
+    "cover_image_width": "520px",
+    "cover_image": "",
+    "content": {
+        "1_para": "",
+        "2_img": "",
+        "3_para": "",
+        "4_vid": ""
+    },
+    "people_involved_ids": [],
+    "links": {},
+    "twitter": ""
+}
